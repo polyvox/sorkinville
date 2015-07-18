@@ -1,0 +1,19 @@
+{
+  "name": "sorkinville",
+  "version": "1.0.0",
+  "description": "The web site for sorkinville.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyvox/sorkinville.git"
+  },
+  "author": "polyvox <admin@polyvox.audio>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/polyvox/sorkinville/issues"
+  },
+  "homepage": "https://github.com/polyvox/sorkinville#readme"
+}

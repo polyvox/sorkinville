@@ -1,0 +1,103 @@
+$header-animation-width: 750px;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E0E0E0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul, li {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.layout {
+  display: flex;
+}
+
+.layout.vertical {
+  flex-direction: column;
+}
+
+.layout.stretch {
+  align-items: stretch;
+}
+
+.flex {
+  flex: 1;
+}
+
+.smaller-text {
+  font-size: 40%;
+  font-family: 'Roboto Condensed';
+  padding-left: .5em;
+}
+
+.fancy-title {
+  margin: 0;
+  position: absolute;
+  width: 5em;
+  top: .75em;
+  left: .25em;
+  
+  font-family: 'Cookie', cursive;
+  font-size: 6em;
+  line-height: .75em;
+  color: white;
+
+  transform: rotate(-15deg) scale(2);
+  transform-origin: 0 0;
+  text-shadow: 1px 1px 2px black;
+
+  transition: all .5s ease-in;
+
+  @media only screen and (max-width: $header-animation-width) {
+    font-size: 4em;
+    transform: scale(1);
+    top: .75em;
+  }
+}
+
+.overview {
+  position: relative;
+  height: 20em;
+  max-height: 20em;
+
+  background-color: #376596;
+  background-size: cover;
+  background-repeat: none;
+  background-position: top;
+  background-image: url(/images/large-town-view.jpg);
+
+  transition: max-height .5s ease-in;
+
+  @media only screen and (max-width: $header-animation-width) {
+    max-height: 10em;
+  }
+}
+
+.standard-footer {
+
+}
