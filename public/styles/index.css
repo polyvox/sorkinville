@@ -7,10 +7,10 @@ html, body {
   background-color: #E0E0E0; }
 
 body {
-  overflow: hidden; }
+  overflow-x: hidden;
+  overflow-y: auto; }
 
 main {
-  overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
 
 h1, h2, h3, h4, h5, h6 {
